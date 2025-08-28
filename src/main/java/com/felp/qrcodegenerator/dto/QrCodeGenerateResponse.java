@@ -1,4 +1,4 @@
 package com.felp.qrcodegenerator.dto;
 
-public record QrCodeGenerateResponse(){
+public record QrCodeGenerateResponse(String url){
 }
